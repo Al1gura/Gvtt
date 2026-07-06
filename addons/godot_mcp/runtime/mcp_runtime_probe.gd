@@ -1,4 +1,5 @@
 extends Node
+class_name MCPRuntimeProbe
 
 const CAPTURE_PREFIX: StringName = &"mcp"
 var _capture_registered: bool = false
