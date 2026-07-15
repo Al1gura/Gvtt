@@ -11,6 +11,9 @@ export/
 *.swo
 *~
 
+# Godot UID cache
+*.uid
+
 # OS
 .DS_Store
 Thumbs.db
@@ -18,4 +21,12 @@ Thumbs.db
 # Build
 bin/
 obj/
-# sync
+
+# Sandbox
+sandbox/
+
+# Export configs
+export_presets.cfg
+
+# Claude/编辑器备份文件,避免旧 vcs code 进版本库
+*.bak
